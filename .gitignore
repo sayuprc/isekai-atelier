@@ -24,5 +24,6 @@ dist-ssr
 *.sw?
 
 .vite
+.astro
 
 mise.*.toml
