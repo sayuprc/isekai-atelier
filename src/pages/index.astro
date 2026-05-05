@@ -2,7 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro'
 import { pages } from '../pages'
 
-const basePath = import.meta.env.BASE_URL
+const basePath = import.meta.env.BASE_URL.replace(/\/?$/, '/')
 ---
 
 <BaseLayout title="ヰ世界アトリエ">
