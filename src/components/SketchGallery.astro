@@ -1,0 +1,25 @@
+---
+import type { PageDefinition } from '../pages'
+
+type Props = {
+  page: PageDefinition
+}
+
+const { page } = Astro.props as Props
+const isTwoColumnLayout = page.layout === 'two-column'
+---
+
+<section class:list={['sketch-grid', isTwoColumnLayout && 'sketch-grid-two-column']}>
+  {page.sketches.map((sketch) => (
+    <section class="sketch-panel">
+      <h2>{sketch.title}</h2>
+      <div class="sketch-mount" data-sketch-key={sketch.key}></div>
+    </section>
+  ))}
+</section>
+
+<script>
+  import { mountSketches } from '../client/render-sketches'
+
+  mountSketches()
+</script>

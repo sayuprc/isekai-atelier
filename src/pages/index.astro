@@ -1,0 +1,22 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro'
+import { pages } from '../pages'
+
+const basePath = import.meta.env.BASE_URL
+---
+
+<BaseLayout title="ヰ世界アトリエ">
+  <main class="page page-home">
+    <section class="project-grid">
+      {
+        pages.map((page) => (
+          <a href={`${basePath}${page.slug}/`} class="project-card">
+            <h2>{page.title}</h2>
+            <p>{page.description}</p>
+            <span>{page.sketches.length} view</span>
+          </a>
+        ))
+      }
+    </section>
+  </main>
+</BaseLayout>

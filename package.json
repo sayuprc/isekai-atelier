@@ -4,19 +4,21 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --host",
-    "build": "tsc && vite build",
-    "preview": "vite preview",
+    "dev": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview --host",
     "lint": "biome lint .",
     "lint:fix": "biome lint --write .",
     "format": "biome format .",
     "format:fix": "biome format --write ."
   },
   "devDependencies": {
+    "@astrojs/check": "^0.9.9",
     "@biomejs/biome": "2.4.10",
     "@types/p5": "^1.7.7",
+    "astro": "^6.1.10",
     "typescript": "^6.0.2",
-    "vite": "^8.0.5"
+    "vite": "^7.0.0"
   },
   "dependencies": {
     "p5": "^1.11.11",
