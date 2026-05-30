@@ -16,9 +16,9 @@
     "@astrojs/check": "^0.9.9",
     "@biomejs/biome": "2.4.10",
     "@types/p5": "^1.7.7",
-    "astro": "^6.1.10",
+    "astro": "^6.4.2",
     "typescript": "^6.0.2",
-    "vite": "^7.0.0"
+    "vite": "^8.0.14"
   },
   "dependencies": {
     "p5": "^1.11.11",
