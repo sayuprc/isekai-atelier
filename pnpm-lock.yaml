@@ -10,7 +10,7 @@ importers:
     dependencies:
       p5:
         specifier: ^1.11.11
-        version: 1.11.12
+        version: 1.11.13
       p5.js-svg:
         specifier: ^1.6.0
         version: 1.6.0
@@ -1485,8 +1485,8 @@ packages:
   p5.js-svg@1.6.0:
     resolution: {integrity: sha512-54mrTgkiuXMTlHld7mLiLemZ2wkM3FOFwnXTpYStYv9OTDM4XOgWucnjXX552Yq4SQ+/fI9s6buVk91OLmedqw==}
 
-  p5@1.11.12:
-    resolution: {integrity: sha512-oB93FbG56WO3xGQrIaw0HttZKzk4QJbZUVDfk59+Pu/uP8cGz5I9vsg21vIvv8tfYY2xhLQYeB0F2FeiGvkH0A==}
+  p5@1.11.13:
+    resolution: {integrity: sha512-gfGo4AkyuNMs6Ko7UNFM9K2edqFRGyLrFaYUB+XXF127JVdEPu0BIaC5uDDNJpsRMOD9hJMUpsOH4HkfuNhvhA==}
 
   package-manager-detector@1.8.0:
     resolution: {integrity: sha512-yQA4H19AmPEoMUeavPMDIe1higySl/gH/yaQrkT/s07Qp+7pp2hYz30N3z2l5BkjVkF9Ow6o0wjJamm2y7Sn0A==}
@@ -3279,7 +3279,7 @@ snapshots:
 
   p5.js-svg@1.6.0: {}
 
-  p5@1.11.12: {}
+  p5@1.11.13: {}
 
   package-manager-detector@1.8.0: {}
 
